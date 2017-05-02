@@ -1,0 +1,95 @@
+main {
+    margin: 0vh 0vw 0vh 10vw;
+    overflow: auto;
+}
+
+main h2 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: dodgerblue;
+}
+
+main > section > section {
+    margin-left: 5vw;
+}
+
+main h3 {
+    font-size: 1.1rem;
+    color: dodgerblue;
+    line-height: 0;
+    margin-top: 1.8rem;
+}
+
+main li {
+    list-style: circle;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+main > section > section > p {
+    font-size: 0.8rem;
+}
+
+nav #nav_clases {
+	background-color: #86a3d5;
+	color: #ffffff;
+	border-radius: 3px;
+	padding:6px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0052cc;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;
+}
+
+
+/* Aside List styles */
+
+.verticalLine {
+    display: inline-block;
+    padding-right: 5vw;
+    border-right: 1px solid #999999;
+    width: 50vw;
+}
+
+.aside_list {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 5px;
+    line-height: 2rem;
+    width: 220px;
+    position: fixed;
+}
+
+aside.aside_list > ul > li > ul{
+    line-height: 1.5rem;
+}
+
+.aside_list a {
+    font-weight: normal;
+}
+
+.aside_list a.selected {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+    .aside_list {
+        display: none;
+    }
+    
+    .verticalLine {
+        display: block;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-right: 0;
+    }
+}

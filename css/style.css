@@ -1,0 +1,51 @@
+nav #nav_inicio {
+	background-color: #86a3d5;
+	color: #ffffff;
+	border-radius: 3px;
+	padding:6px 10px;
+}
+
+.section-distributed {
+	
+	text-align: left;
+	font: normal 16px sans-serif;
+    line-height: 1.5rem;
+
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.section-distributed h2 {
+    color: dodgerblue;
+}
+
+.section-distributed .section-left,
+.section-distributed .section-center-left,
+.section-distributed .section-center-right,
+.section-distributed .section-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 20vw;
+    margin: 1vw;
+}
+
+@media (max-width: 955px) {
+    
+    
+    .section-distributed .section-left,
+    .section-distributed .section-center-left,
+    .section-distributed .section-center-right,
+    .section-distributed .section-right {
+        display: block;
+        text-align: center;
+        width: 90vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    
+    .section-distributed .section-left,
+    .section-distributed .section-center-left,
+    .section-distributed .section-center-right {
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Academia Gustavo</title>
+        <link rel="icon" href="img/tab_icon.ico">
+        
+        <!- Main styles ->
+        <link rel="stylesheet" href="css/style_clases.css">
+        
+        <!- Header/Footer styles and fonts ->
+        <link rel="stylesheet" href="css/header-basic-light.css">
+        <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!- Este meta es necesario para la correcta visualización en todos los dispositivos ->
+        
+        
+        <!- Header/Footer import ->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("layout/header.html");
+                
+                $("#main").load("layout/clases_main.html");
+                
+                $("#footer").load("layout/footer.html");
+            });
+        </script>
+        
+        <script src="js/gen_validatorv4.js"></script>
+        
+        <!- Main scripts ->
+        <script src="js/aside_script.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="header"></div>
+        
+        <div id="main"></div>
+        
+        <div id="footer"></div>
+        
+    </body>
+</html>
