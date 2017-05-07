@@ -1,3 +1,9 @@
+body {
+    background-image: url(../img/bkgnd/bkgnd_clases.jpg);
+    background-position: top;
+    background-attachment: fixed;
+}
+
 main {
     margin: 0vh 0vw 0vh 10vw;
     overflow: auto;
