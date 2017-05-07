@@ -56,3 +56,12 @@ nav #nav_inicio {
         margin-bottom: 50px;
     }
 }
+
+@media ( max-width: 480px ) {
+    body {
+        background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
+    }
+}
