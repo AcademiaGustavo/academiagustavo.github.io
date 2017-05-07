@@ -1,6 +1,18 @@
-main {
-    margin: 0vh 20vw 0vh 20vw;
+body {
+    background-image: url(../img/bkgnd/bkgnd_contacto.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
 }
+
+main {
+    margin: 0vh auto 0vh auto;
+    
+}
+
+main > section {
+    margin-left: 5vw;
+}
+
 
 nav #nav_contacto {
 	background-color: #86a3d5;
@@ -33,4 +45,35 @@ body section.infoContacto {
 .details #week_day{
     color: dimgrey;
     font-family: serif;
+}
+
+
+/* Google Maps */
+.verticalLine {
+    display: inline-block;
+    border-right: 1px solid #999999;
+    margin-right: 2vw;
+    width: 50vw;
+}
+
+.aside_map {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+    .aside_map {
+        display: none;
+    }
+    
+    .verticalLine {
+        display: block;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-right: 0;
+    }
 }
