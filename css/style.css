@@ -1,3 +1,10 @@
+body {
+    background-image: url(../img/bkgnd/bkgnd_inicio.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+
 nav #nav_inicio {
 	background-color: #86a3d5;
 	color: #ffffff;
