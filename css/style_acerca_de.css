@@ -1,3 +1,10 @@
+body {
+    background-image: url(../img/bkgnd/bkgnd_acercaDe.JPG);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 main {
     margin: 0vh 10vw 0vh 10vw;
 }
