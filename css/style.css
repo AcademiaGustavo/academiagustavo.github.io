@@ -60,6 +60,6 @@ nav #nav_inicio {
 	and (min-device-width: 1400px) {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio_1080p.jpg);
-		background-attachment: center center;
+		background-position: center center;
 	}
 }
