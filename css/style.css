@@ -1,5 +1,5 @@
 body {
-    	background-image: url(../img/bkgnd/bkgnd_inicio.jpg);
+    	background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -58,9 +58,8 @@ nav #nav_inicio {
 }
 
 @media only screen
-	and (device-width: 480px)
-	and (device-height: 800px){
+	and (min-device-width: 1400px) {
 	body {
-		background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
+		background-image: url(../img/bkgnd/bkgnd_inicio_1080p.jpg);
 	}
 }
