@@ -58,7 +58,7 @@ nav #nav_inicio {
 	}
 }
 
-@media ( max-width: 480px ) {
+@media screen and ( max-width: 480px ) and (orientation: portrait) {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
 		background-position: center center;
