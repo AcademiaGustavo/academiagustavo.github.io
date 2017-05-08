@@ -1,8 +1,8 @@
 body {
-    background-image: url(../img/bkgnd/bkgnd_inicio.jpg);
-    background-attachment: fixed;
-    background-position: bottom;
-    background-size: cover;
+    	background-image: url(../img/bkgnd/bkgnd_inicio.jpg);
+	background-attachment: fixed;
+	background-position: bottom;
+	background-size: cover;
 }
 
 nav #nav_inicio {
@@ -16,49 +16,52 @@ nav #nav_inicio {
 	
 	text-align: left;
 	font: normal 16px sans-serif;
-    line-height: 1.5rem;
+	line-height: 1.5rem;
 
-    padding-left: 4vw;
-    padding-right: 4vw;
+	padding-left: 4vw;
+	padding-right: 4vw;
 }
 
 .section-distributed h2 {
-    color: dodgerblue;
+	color: dodgerblue;
 }
 
 .section-distributed .section-left,
 .section-distributed .section-center-left,
 .section-distributed .section-center-right,
 .section-distributed .section-right {
-    display: inline-block;
-    vertical-align: top;
-    width: 20vw;
-    margin: 1vw;
+	display: inline-block;
+	vertical-align: top;
+	width: 20vw;
+	margin: 1vw;
 }
 
 @media (max-width: 955px) {
     
     
-    .section-distributed .section-left,
-    .section-distributed .section-center-left,
-    .section-distributed .section-center-right,
-    .section-distributed .section-right {
-        display: block;
-        text-align: center;
-        width: 90vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
-    }
+	.section-distributed .section-left,
+	.section-distributed .section-center-left,
+	.section-distributed .section-center-right,
+	.section-distributed .section-right {
+		display: block;
+		text-align: center;
+		width: 90vw;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
     
-    .section-distributed .section-left,
-    .section-distributed .section-center-left,
-    .section-distributed .section-center-right {
-        margin-bottom: 50px;
-    }
+	.section-distributed .section-left,
+	.section-distributed .section-center-left,
+	.section-distributed .section-center-right {
+		margin-bottom: 50px;
+	}
 }
 
 @media ( max-width: 480px ) {
-    body {
-        background: url(../img/bkgnd/bkgnd_inicio_480p.jpg) no-repeat center center fixed;
-    }
+	body {
+		background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
+		background-attachment: fixed;
+		background-position: top;
+		background-size: cover;
+	}
 }
