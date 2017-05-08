@@ -58,7 +58,7 @@ nav #nav_inicio {
 	}
 }
 
-@media screen and ( min-width: 768px ) {
+@media screen and ( min-width: 1366px ) {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio.jpg);
 	}
