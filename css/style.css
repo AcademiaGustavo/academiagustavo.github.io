@@ -61,6 +61,6 @@ nav #nav_inicio {
 @media screen and ( max-width: 1000px ) {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
-		background-position: center center;
+		background-position: top center;
 	}
 }
