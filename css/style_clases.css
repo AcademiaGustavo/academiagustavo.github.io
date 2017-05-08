@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/bkgnd/bkgnd_clases.jpg);
+    background-image: url(../img/bkgnd/bkgnd_clases_480p.jpg);
     background-position: top;
     background-attachment: fixed;
 }
@@ -97,4 +97,22 @@ aside.aside_list > ul > li > ul{
         margin-right: auto;
         border-right: 0;
     }
+}
+
+@media only screen
+	and (min-device-width: 1000px) {
+	body {
+		background-image: url(../img/bkgnd/bkgnd_clases_768p.jpg);
+		background-position: center center;
+        	background-size: cover;
+	}
+}
+
+@media only screen
+	and (min-device-width: 1400px) {
+	body {
+		background-image: url(../img/bkgnd/bkgnd_clases_1080p.jpg);
+		background-position: center center;
+        	background-size: cover;
+	}
 }
