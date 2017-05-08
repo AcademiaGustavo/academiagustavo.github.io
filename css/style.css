@@ -58,6 +58,7 @@ nav #nav_inicio {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio_768p.jpg);
 		background-position: center center;
+		background-size: cover;
 	}
 }
 
@@ -66,5 +67,6 @@ nav #nav_inicio {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio_1080p.jpg);
 		background-position: center center;
+		background-size: cover;
 	}
 }
