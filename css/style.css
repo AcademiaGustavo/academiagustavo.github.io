@@ -57,7 +57,7 @@ nav #nav_inicio {
 	}
 }
 
-@media only screen and (min-width: 1960) {
+@media only screen and (max-width: 1920) {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio.jpg);
 	}
