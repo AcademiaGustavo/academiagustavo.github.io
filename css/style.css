@@ -59,6 +59,6 @@ nav #nav_inicio {
 @media only screen
 	and (min-device-width: 1400px) {
 	body {
-		background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
+		background-image: url(../img/bkgnd/bkgnd_inicio_1080p.jpg);
 	}
 }
