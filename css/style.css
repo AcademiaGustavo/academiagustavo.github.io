@@ -1,6 +1,6 @@
 body {
     	background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
-	background-size: cover;
+	background-attachment: fixed;
 }
 
 nav #nav_inicio {
