@@ -1,7 +1,8 @@
 body {
     	background-image: url(../img/bkgnd/bkgnd_inicio.jpg);
 	background-attachment: fixed;
-	background-position: bottom;
+	background-position: bottom center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
@@ -57,12 +58,9 @@ nav #nav_inicio {
 	}
 }
 
-@media ( max-width: 855px ) {
+@media ( max-width: 480px ) {
 	body {
 		background-image: url(../img/bkgnd/bkgnd_inicio_480p.jpg);
-		background-attachment: fixed;
 		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
 	}
 }
