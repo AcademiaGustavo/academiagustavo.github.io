@@ -34,13 +34,13 @@
 
 .header-basic-light .header-limiter h1 span {
 	color: #5383d3;
-    font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+    	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
 }
 
 /* The header links */
 
 .header-basic-light .header-limiter a {
-	color: #5c616a;
+	color: dodgerblue;
 	text-decoration: none;
 }
 
