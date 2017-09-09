@@ -1,224 +1,64 @@
-.footer-distributed{
-	background-color: #292c2f;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
+<footer id=footer_r class="footer-distributed">
 
-	padding: 55px 50px;
-	margin-top: 80px;
-}
+    <div class="footer-left">
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
+        <h3>Academia <span>Gustavo</span></h3>
 
-/* Footer left */
+        <p class="footer-links">
+            <a href="index.html">Inicio</a>
+            ·
+            <a href="servicios.html">Servicios</a>
+            ·
+            <a href="acerca_de.html">Acerca de</a>
+            ·
+            <a href="contacto.html">Contacto</a>
+        </p>
 
-.footer-distributed .footer-left{
-	width: 29%;
-}
+        <p class="footer-company-name">Academia Gustavo &copy; 2017</p>
+    </div>
 
-/* The company logo */
+    <div class="footer-center">
 
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
-}
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>C/ Ingeniero José Bosch y Síntes, 7</span> Las Palmas de Gran Canaria,<br>España</p>
+        </div>
 
-.footer-distributed h3 span{
-	color:  #5383d3;
-}
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>928 360585</p>
+        </div>
 
-/* Footer links */
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">academiagustavo@gmail.com</a></p>
+        </div>
 
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
-	padding: 0;
-}
+    </div>
 
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
+    <div class="footer-right">
 
-.footer-distributed .footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
+        <p>Consúltanos</p>
 
-/* Footer Center */
+        <form id="contactform" action="https://formspree.io/academiagustavo@gmail.com" method="post">
 
-.footer-distributed .footer-center{
-	width: 35%;
-}
+            <input type="hidden" name="_subject" value="Consulta vía Web de la Academia Gustavo" />
+            <input type="text" name="email" placeholder="Introduzca su e-mail" />
+            <textarea name="mensaje" placeholder="Escriba aquí su consulta"></textarea>
+            <button>Enviar</button>
 
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-	vertical-align: middle;
-	margin: 0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-    margin-bottom: 10px;
-}
-
-.footer-distributed .footer-center p a{
-	color:  #5383d3;
-	text-decoration: none;;
-}
-
-
-/* Footer Right */
-
-.footer-distributed .footer-right{
-    width: 32%;
-}
-
-.footer-distributed .footer-right p{
-	display: block;
-	vertical-align: top;
-	margin: 5px 15px;
-	color: #ffffff;
-}
-
-/* The contact form */
-
-.footer-distributed form{
-	display: block;
-}
-
-.footer-distributed form input,
-.footer-distributed form textarea{
-	display: block;
-	border-radius: 3px;
-	box-sizing: border-box;
-	background-color:  #1f2022;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border: none;
-	resize: none;
-
-	font: inherit;
-	font-size: 14px;
-	font-weight: normal;
-	color:  #d1d2d2;
-
-	width: 100%;
-	padding: 10px;
-}
-
-.footer-distributed ::-webkit-input-placeholder {
-	color:  #5c666b;
-}
-
-.footer-distributed ::-moz-placeholder {
-	color:  #5c666b;
-	opacity: 1;
-}
-
-.footer-distributed :-ms-input-placeholder{
-	color:  #5c666b;
-}
-
-
-.footer-distributed form input{
-	height: 30px;
-	margin-bottom: 15px;
-}
-
-.footer-distributed form textarea{
-	height: 100px;
-	margin-bottom: 20px;
-}
-
-.footer-distributed form button{
-    display: inline-block;
-	border-radius: 3px;
-	background-color:  #33383b;
-	color: #ffffff;
-	border: 0;
-	padding: 15px 50px;
-	font-weight: bold;
-	float: right;
-}
-
-.acreditacion {
-    margin-top: 80px;
-    color: darkgray;
-    font-size: 0.55em;
-}
-
-.acreditacion a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media screen and (max-width: 950px) {
-
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-right {
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-    
-    .footer-distributed .footer-center {
-		width: 20em;
-        display: block;
-        margin: auto;
-		margin-bottom: 40px;
+        </form>
         
-    }
+        <script language="JavaScript">
+            var frmvalidator  = new Validator("contactform");
+            frmvalidator.addValidation("email","req","Por favor, introduce una dirección de correo electrónico");
+            frmvalidator.addValidation("email","email",
+            "La dirección de correo electrónico introducida no es válida");
+            frmvalidator.addValidation("mensaje", "req", "Por favor, introduce un mensaje");
+        </script>
 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
+    </div>
     
-}
+    <div class="acreditacion">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
-@media screen and (max-width: 400px){
-    .footer-distributed .footer-center {
-        width: auto;
-	text-align: center;
-    }
-}
+</footer>
