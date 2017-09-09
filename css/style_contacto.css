@@ -6,11 +6,11 @@ body {
 
 main {
     margin: 0vh auto 0vh auto;
-    
 }
 
 main > section {
-    margin-left: 5vw;
+    padding-left: 5vw;
+    padding-right: 2vw
 }
 
 
@@ -51,20 +51,19 @@ body section.infoContacto {
 /* Google Maps */
 .verticalLine {
     display: inline-block;
-    border-right: 1px solid #999999;
     margin-right: 2vw;
+    border-right: 1px solid #999999;
     width: 50vw;
 }
 
 .aside_map {
     display: inline-block;
     vertical-align: top;
-    margin-left: 5px;
     width: 400px;
     height: 400px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .aside_map {
         display: none;
     }
