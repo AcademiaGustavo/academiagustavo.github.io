@@ -6,7 +6,7 @@
 	text-align: left;
 	font: bold 16px sans-serif;
 
-	padding: 55px 50px;
+	padding: 55px 0px;
 	margin-top: 80px;
 }
 
@@ -20,7 +20,32 @@
 /* Footer left */
 
 .footer-distributed .footer-left{
-	width: 29%;
+	width: 310px;
+    margin-left: 5vw;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 20px;
+    margin-left: 12px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
 
 /* The company logo */
@@ -30,7 +55,8 @@
     font-size: 30px;
 	font-style: normal;
     font-family: 'Slabo 27px', serif;
-	margin: 0;
+    text-align: center;
+	margin-top: 0;
 }
 
 .footer-distributed h3 span{
@@ -60,13 +86,7 @@
 	margin: 0;
 }
 
-/* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
+.footer-distributed .footer-left div > i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -75,46 +95,64 @@
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	margin: 10px 10px;
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer-distributed .footer-left i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-distributed .footer-left p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
 	margin: 0;
 }
 
-.footer-distributed .footer-center p span{
+.footer-distributed .footer-left p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
     margin-bottom: 10px;
 }
 
-.footer-distributed .footer-center p a{
-	color:  #5383d3;
+.footer-distributed .footer-left p a{
+	color:dodgerblue;
 	text-decoration: none;;
 }
 
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 28vw;
+    margin: 20px 5vw;
+}
+
+.footer-distributed .footer-center p{
+	display: block;
+	vertical-align: top;
+	margin: 5px 15px;
+	color: #ffffff;
+}
 
 /* Footer Right */
 
 .footer-distributed .footer-right{
-    width: 32%;
+    width: 200px;
+	margin: 20px 5vw;
 }
 
 .footer-distributed .footer-right p{
 	display: block;
 	vertical-align: top;
-	margin: 5px 15px;
 	color: #ffffff;
+}
+
+.footer-distributed .footer-right p a{
+	color: dodgerblue;
+    text-decoration: none;
 }
 
 /* The contact form */
@@ -178,9 +216,9 @@
 }
 
 .acreditacion {
-    margin-top: 80px;
+    margin-top: 30px;
     color: darkgray;
-    font-size: 0.55em;
+    font-size: 0.6em;
 }
 
 .acreditacion a {
@@ -190,6 +228,22 @@
 
 
 /* If you don't want the footer to be responsive, remove these media queries */
+
+@media screen and (min-width: 1500px){
+    .footer-distributed .footer-left{
+        margin-left: 10vw;
+        margin-right: 6vw;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        margin-left: 2vw;
+        margin-right: 3vw;
+    }
+}
 
 @media screen and (max-width: 950px) {
 
@@ -201,7 +255,7 @@
 	.footer-distributed .footer-right {
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
+		margin: 100px 0px;
 		text-align: center;
 	}
     
@@ -210,7 +264,6 @@
         display: block;
         margin: auto;
 		margin-bottom: 40px;
-        
     }
 
 	.footer-distributed .footer-center i{
@@ -220,7 +273,7 @@
 }
 
 @media screen and (max-width: 400px){
-    .footer-distributed .footer-center {
+    .footer-distributed .footer-left {
         width: auto;
         text-align: center;
     }

@@ -13,8 +13,6 @@
     z-index: 999;
 }
 
-
-
 .header-basic-light .header-limiter {
 	max-width: 1200px;
 	text-align: center;
@@ -25,7 +23,7 @@
 
 .header-basic-light .header-limiter h1{
 	float: left;
-	font-size: 22px;
+	font-size: 32px;
     font-style: normal;
     font-family: 'Slabo 27px', serif;
 	line-height: 40px;
@@ -34,7 +32,7 @@
 
 .header-basic-light .header-limiter h1 span {
 	color: dodgerblue;
-    	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+    font: normal 40px Cookie, Arial, Helvetica, sans-serif;
 }
 
 /* The header links */
@@ -45,8 +43,8 @@
 }
 
 .header-basic-light .header-limiter nav{
-	font:15px Arial, Helvetica, sans-serif;
-	line-height: 40px;
+	font: 17px Arial, Helvetica, sans-serif;
+	line-height: 53px;
 	float: right;
 }
 
@@ -79,12 +77,12 @@
 		float: none;
 		margin: -8px 0 10px;
 		text-align: center;
-		font-size: 19px;
+		font-size: 22px;
 		line-height: 1;
 	}
     
     .header-basic-light .header-limiter h1 span {
-        font-size: 24px;
+        font-size: 29px;
     }
 
 	.header-basic-light .header-limiter nav {
